@@ -56,7 +56,7 @@ public class TodosTests {
         todos.removeTask(task);
 
         //then
-        assertTrue(todos.listTasks.isEmpty()); //проверка на то, что лист с заданиями пустой после удаления
+        assertTrue(todos.listTasks.isEmpty());
     }
 
     @Test
